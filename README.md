@@ -1,2 +1,3 @@
 # EstudoWebDev1
-Estudo desenvolvimento Web
+
+Este repositório se destina ao estudo de desenvolvimento Web1. 

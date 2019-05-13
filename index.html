@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Aprender e Compartilhar">
+		<meta name="keywords" content="Blog Ensino Computacao">
+		<meta name="robots" content="index, follow">
+		<meta name="author" content="Mayara">
+		<link rel="icon" href="img/icon.png">
+		<link rel="stylesheet" href="./css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <title>Aprender e compartilhar</title>
+    
+	</head>
+	   
+	<body>
+        <header class="cabecalho container">
+            <a href="index.html" class="logo"></a>
+            <button class="menu-botao bg-gradiente"></button>
+            
+            <nav class="menu">
+                <a href="#" class="menu-botao-fechar"></a>
+                <lu>
+                    <li><a href="">Matérias e Vídeos</a></li>
+                    <li><a href="">Tutoriais</a></li>
+                    <li><a href="">Dicas</a></li>
+                </lu>
+            </nav>
+        </header>
+        <section class="banner container"></section>
+        <main class="principal container"></main>
+        <section class="news container"></section>
+        <footer class="rodape "></footer> 
+        
+        
+        <!-- scripts -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(".menu-botao").click(function(){
+               $(".menu").show(); 
+            });
+            
+            $(".menu-botao-fechar").click(function(){
+               $(".menu").hide(); 
+            });
+        </script>
+        
+	</body>
+</html>

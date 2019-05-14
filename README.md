@@ -4,5 +4,5 @@ Este repositório se destina ao estudo de desenvolvimento Web1 utilizando as tec
 
 - Aprendizado 1 - Menu mobile open-close com JQuery
 
-![print](https://user-images.githubusercontent.com/9852787/57669529-ace08f00-75e1-11e9-891b-609e1bc49aac.gif)
+![print](https://user-images.githubusercontent.com/9852787/57706597-708e4c80-763c-11e9-8468-1148f71cb7f0.gif)
 

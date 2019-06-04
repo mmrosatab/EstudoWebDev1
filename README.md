@@ -8,7 +8,7 @@ Este repositório se destina ao estudo de desenvolvimento Web1 utilizando as tec
 
 - [ ] Aprendizado 2 - Menu mobile open-close com JQuery 
 
-- [ ] Aprendizado 3 - Header fixo topo da pagina deslizante 
+- [ ] Aprendizado 3 - Header fixo topo da página deslizante 
 
 - [ ] Aprendizado 4 - Menu lateral esqueda animação com mouse em cima 
 

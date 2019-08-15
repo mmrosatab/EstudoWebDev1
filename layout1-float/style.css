@@ -1,0 +1,48 @@
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+body
+{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+    font-size: 1.0em;
+}
+
+header, footer
+{
+	background-color: rgb(230, 230, 230);
+    height: 80px;
+    text-align: center;
+    padding: 1%;
+    clear: both;
+}
+
+section
+{
+    background-color: rgb(242, 242, 270);
+    width: 20%;
+    height: 100px;
+    float: left;
+    clear: left;
+}
+
+section a
+{
+	display: flex;
+    flex-direction: column;
+    padding: 2%;
+    align-items: center;
+
+}
+main
+{
+	background-color: rgb(242, 242, 242);
+    width: 80%;
+    height: 100px;
+    float: right; 
+    clear: left;
+}

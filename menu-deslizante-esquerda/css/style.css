@@ -1,0 +1,89 @@
+/* General */
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-size: 1.0em;
+    font-family: monospace, sans-serif;
+    background-color: #f1f1f1f1;
+}
+
+a 
+{
+    text-decoration: none;
+    color: white;
+    
+}
+
+li
+{
+    list-style: none;
+    padding: 4%;
+}
+
+header
+{
+    
+    
+}
+
+header nav
+{
+    background-color: #333;
+    width: 24vw;
+    height: 100vh;
+    display: none;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header nav ul
+{
+    display: flex;
+    flex-direction: column;
+}
+
+header nav ul li
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.open-button
+{
+    margin: 2%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: url('../img/menu.png') center center/50px no-repeat;
+    
+}
+
+header nav ul li:hover
+{
+    background-color: #111;
+}
+
+main section
+{
+    margin: 0% 5% 5% 15%;
+    background-color: palevioletred;
+    height: 80vh;
+}
+
+@media screen and (min-width: 768px)
+{
+    header nav
+    {
+        width: 12vw;
+    }
+}

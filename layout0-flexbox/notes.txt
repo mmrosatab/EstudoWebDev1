@@ -1,0 +1,18 @@
+
+Today's learning (22-07-2019 16h32)
+
+- vh sets the height according to the viewport heigth.
+
+- vw sets the width according to the viewport width.
+
+- The property "order" define order in that children of flex container may apper on screem. How make it? Define father as "display: flex" and "flex: 1" and children as "order: 1 ou order: 2 ... and so it goes". 
+
+- Property "flex" How work? 
+    
+    - sintaxe flex: [flex-grow] [flex-shrink] [flex-basis]
+    
+    [flex-grow] Set the proportion that the item should have
+    
+    [flex-shrink] Set the proportion that the item should shrink
+    
+    [flex-basis] Defines the initial size that an item must have before the space around it is distributed.

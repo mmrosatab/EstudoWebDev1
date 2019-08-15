@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Mayara Marques">
+    <meta name="author" content="Mayara Marques">
+    <link href="./css/style.css" rel="stylesheet">
+    <!-- <link href="./css/normalize.css" rel="stylesheet"> -->
+    <link rel="shortcut icon" href="./img/logo3.png" type="image/x-icon" />
+    
+    <title>Mayara Marques</title>
+</head>
+    <body>
+        <header class="hhe">
+            <button class='open-button'></button>
+            <nav class='menu'>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Portifólio</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- scripts -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        
+        <script>
+            $(".open-button").click(function(){
+               $(".menu").show(800); 
+            });
+            
+            $('header').on('mouseleave', function () {
+               $(".menu").hide(800); 
+            });
+        </script>
+        
+	</body>
+</html>

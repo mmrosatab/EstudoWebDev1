@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+
+.page-container{
+    margin: 0;
+    padding: 0;
+    width: 100vw; 
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+}
+
+.login-container{
+    background-color: gray;
+    width: 60%;
+    height: 60%;
+}
+
+
+@media screen and (min-width: 768px)
+{
+    body{
+        margin: 0;
+        padding: 0; 
+    }
+
+    .page-container{
+        margin: 0;
+        padding: 0;
+        width: 100vw; 
+        height: 100vh;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        vertical-align: center;
+    }
+    
+    .login-container{
+       
+        width: 30%;
+        height: 60%;
+    }
+    
+    
+}
+
+/* vmin = 1/100 do valor mínimo entre a largura e altura mínima da janela*/
+/* ex: largura 800px então vmin é 8px*/
+/* vmax = 1/100 do valor máximo entre a largura e altura máxima da janela*/
+/* ex: altura de 1080px então vmax é 10.8px */
